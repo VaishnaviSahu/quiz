@@ -8,7 +8,8 @@ import { RegisterComponent } from './register/register.component';
 import { NavbarComponent } from './navbar/navbar.component';
 import { QuizComponent } from './quiz/quiz.component';
 import { ResultComponent } from './result/result.component';
-import { SharedComponent } from './shared/shared.component';
+//import { QuizService } from './shared/quiz.service';
+
 import { from } from 'rxjs';
 import { appRoutes } from './routes';
 
@@ -19,7 +20,6 @@ import { appRoutes } from './routes';
     NavbarComponent,
     QuizComponent,
     ResultComponent,
-    SharedComponent
   ],
   imports: [
     BrowserModule,
